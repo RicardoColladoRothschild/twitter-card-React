@@ -10,7 +10,10 @@
 }
 
 .user-data-info{
+    width:270px;
     display:flex;
+    display:row;
+    gap:15px;
     
 
 }

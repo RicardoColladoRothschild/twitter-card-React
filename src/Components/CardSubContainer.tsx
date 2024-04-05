@@ -10,8 +10,9 @@ export const CardSubContainer:React.FC<Props> = ({username, user, fecha, twitt}:
 
     return(
         <div className='card-sub-container'>
-           <div className="user-data-info"><p className="user-data-info-paragraph">{`${username}`}</p>
-           <span>{`${user} ${fecha}`}</span>
+           <div className="user-data-info">
+            <p className="user-data-info-paragraph">{`${username}`}</p>
+           <p className="user-date-container">{`${user} ${fecha}`}</p>
            </div> 
             <p>{`${twitt}`}</p>
         </div>

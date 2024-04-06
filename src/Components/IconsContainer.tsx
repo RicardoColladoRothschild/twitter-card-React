@@ -27,7 +27,7 @@ export const IconsContainer:React.FC = ()=>{
 
             
             <div className="icon-self-container chart-icons-container">
-            <FiBarChart2/><p>100</p>
+            <FiBarChart2/>
             </div>
 
             <div className="icon-self-container share-icons-container">

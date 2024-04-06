@@ -16,3 +16,6 @@
     font-size:1.6rem;
     gap:5px;
 }
+.icons-container .icon-self-container:hover{
+    cursor:pointer;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import menuDots from '../assets/menu_dots.png';
 import '../styles/CardSubContainer.css';
 import { CardProfilePicture } from './CardProfilePicture';
+import { IconsContainer } from './IconsContainer';
 interface Props{
     username:string;
     user:string;
@@ -20,6 +21,7 @@ export const CardSubContainer:React.FC<Props> = ({username, user, fecha, twitt}:
             <span className="menu-dots-image-container"><img src={menuDots} alt="Menu"/></span>
             </div>            
            <p className="twitt-text-container">{`${twitt}`}</p>
+           <IconsContainer/>
            </div> 
             
         </div>

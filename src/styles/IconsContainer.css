@@ -1,0 +1,18 @@
+.icons-container{
+    margin-top:25px;
+    width:100%;
+    height:41px;
+    display:flex;
+    flex-direction:row;
+    
+    justify-content: space-between;
+    gap:25px;
+}
+
+
+.icons-container .icon-self-container{
+    display:flex;
+    flex-direction:row;
+    font-size:1.6rem;
+    gap:5px;
+}

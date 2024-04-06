@@ -12,7 +12,8 @@ export const Card:React.FC=()=>{
                 username={"ricardo"}
                 user={'@ridev_dom'}
                 fecha={'Nov 25, 2024'}
-                twitt={`Me he cconvertido en el mejor de los programadores que conozco`}
+                twitt={`Me estoy esforzando arduamente, para que mi nombre se escuche entre los grandes.
+                \n Algun dia, lograre pensar en esto como mi momentos de inicio.`}
             />
         </div>
             

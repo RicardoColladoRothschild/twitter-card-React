@@ -4,3 +4,9 @@
     height:95px;
     
 }
+
+.profile-pic-container img{
+    width:65px;
+    height:65px;
+    border-radius: 50px;
+}
